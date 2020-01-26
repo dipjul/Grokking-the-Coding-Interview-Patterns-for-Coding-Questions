@@ -5,22 +5,22 @@ Introduction [Educative.io](https://www.educative.io/courses/grokking-the-coding
 Maximum Sum Subarray of Size K (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/JPKr0kqLGNP)  
 Smallest Subarray with a given sum (easy) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)  
 Longest Substring with K Distinct Characters (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)  
-Fruits into Baskets (medium)  
-No-repeat Substring (hard)  
-Longest Substring with Same Letters after Replacement (hard)  
-Longest Subarray with Ones after Replacement (hard)  
+Fruits into Baskets (medium) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)  
+No-repeat Substring (hard) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) <br/>
+Longest Substring with Same Letters after Replacement (hard) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)  
+Longest Subarray with Ones after Replacement (hard) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)  
 
 
 ##2. Pattern: Two Pointers  
 Introduction  
-Pair with Target Sum (easy)  
-Remove Duplicates (easy)  
-Squaring a Sorted Array (easy)  
-Triplet Sum to Zero (medium)  
-Triplet Sum Close to Target (medium)  
-Triplets with Smaller Sum (medium)  
-Subarrays with Product Less than a Target (medium)  
-Dutch National Flag Problem (medium)  
+Pair with Target Sum (easy) [LeetCode](https://leetcode.com/problems/two-sum/)  
+Remove Duplicates (easy) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) [LeetCode](https://leetcode.com/problems/duplicate-zeros/)    
+Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)  
+Triplet Sum to Zero (medium) [LeetCode](https://leetcode.com/problems/3sum/)  
+Triplet Sum Close to Target (medium) [LeetCode](https://leetcode.com/problems/3sum-closest/)    
+Triplets with Smaller Sum (medium) [LeetCode](https://www.lintcode.com/problem/3sum-smaller/description)  
+Subarrays with Product Less than a Target (medium) [LeetCode](https://leetcode.com/problems/subarray-product-less-than-k/)  
+Dutch National Flag Problem (medium) [LeetCode](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)  
 
 ##3. Pattern: Fast & Slow pointers  
 Introduction  
