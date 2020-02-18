@@ -23,7 +23,7 @@ Subarrays with Product Less than a Target (medium) [LeetCode](https://leetcode.c
 Dutch National Flag Problem (medium) [CoderByte](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)  
 
 ## 3. Pattern: Fast & Slow pointers ##  
-Introduction  
+Introduction [AlgoDaily](https://www.algodaily.com/lessons/using-the-two-pointer-technique)  
 Pair with Target Sum (easy)  
 Remove Duplicates (easy)  
 Squaring a Sorted Array (easy)  
