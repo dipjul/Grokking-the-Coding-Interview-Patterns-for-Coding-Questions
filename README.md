@@ -12,7 +12,7 @@ Longest Subarray with Ones after Replacement (hard) [LeetCode](https://leetcode.
 
 
 ## 2. Pattern: Two Pointers ##  
-Introduction  
+Introduction [AlgoDaily](https://www.algodaily.com/lessons/using-the-two-pointer-technique)  
 Pair with Target Sum (easy) [LeetCode](https://leetcode.com/problems/two-sum/)  
 Remove Duplicates (easy) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) [LeetCode](https://leetcode.com/problems/duplicate-zeros/)    
 Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)  
@@ -23,7 +23,7 @@ Subarrays with Product Less than a Target (medium) [LeetCode](https://leetcode.c
 Dutch National Flag Problem (medium) [CoderByte](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)  
 
 ## 3. Pattern: Fast & Slow pointers ##  
-Introduction [AlgoDaily](https://www.algodaily.com/lessons/using-the-two-pointer-technique)  
+Introduction   
 Pair with Target Sum (easy)  
 Remove Duplicates (easy)  
 Squaring a Sorted Array (easy)  
