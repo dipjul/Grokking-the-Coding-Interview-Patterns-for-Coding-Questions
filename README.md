@@ -25,8 +25,8 @@ Dutch National Flag Problem (medium) [CoderByte](https://coderbyte.com/algorithm
 ## 3. Pattern: Fast & Slow pointers ##  
 Introduction [Emre](https://emre.me/coding-patterns/fast-slow-pointers/)   
 Pair with Target Sum (easy) [LeetCode](https://leetcode.com/problems/two-sum/)   
-Remove Duplicates (easy)  
-Squaring a Sorted Array (easy)  
+Remove Duplicates (easy) [LintCode](https://www.lintcode.com/problem/100/description/)  
+Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/description/)  
 Triplet Sum to Zero (medium)  
 Triplet Sum Close to Target (medium)  
 Triplets with Smaller Sum (medium)  
