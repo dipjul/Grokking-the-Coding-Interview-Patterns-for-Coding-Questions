@@ -29,9 +29,9 @@ Remove Duplicates (easy) [LintCode](https://www.lintcode.com/problem/100/descrip
 Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/description/)  
 Triplet Sum to Zero (medium) [LeetCode](https://leetcode.com/problems/3sum/description/)  
 Triplet Sum Close to Target (medium) [LeetCode](https://leetcode.com/problems/3sum-closest/description/)  
-Triplets with Smaller Sum (medium)  
-Subarrays with Product Less than a Target (medium)  
-Dutch National Flag Problem (medium)  
+Triplets with Smaller Sum (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/)    
+Subarrays with Product Less than a Target (medium) [Geeksforgeeks](https://leetcode.com/problems/subarray-product-less-than-k/)  
+Dutch National Flag Problem (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)    
 
 ## 4. Pattern: Fast & Slow pointers ##  
 Introduction  
