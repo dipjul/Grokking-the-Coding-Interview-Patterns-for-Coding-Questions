@@ -1,3 +1,4 @@
+# [GitBook](https://app.gitbook.com/@dvpr/s/coding-interview-patterns/)
 ---
 description: Providing an alternate to those who can't afford
 ---
