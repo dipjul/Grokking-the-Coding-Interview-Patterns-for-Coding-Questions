@@ -4,18 +4,20 @@ description: Providing an alternate to those who can't afford
 
 # Grokking the Coding Interview: Patterns for Coding Questions Alternative
 
-1. Pattern: Sliding Window   
+## 1. Pattern: Sliding Window 
+
+  
 Maximum Sum Subarray of Size K \(easy\)   
 Smallest Subarray with a given sum \(easy\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)  
 Longest Substring with K Distinct Characters \(medium\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)  
 Fruits into Baskets \(medium\) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)  
 No-repeat Substring \(hard\) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)   
- Longest Substring with Same Letters after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)  
+Longest Substring with Same Letters after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)  
 Longest Subarray with Ones after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)  
 Problem Challenge 1 - Permutation in a String \(hard\) [Leetcode](https://leetcode.com/problems/permutation-in-string/)  
 Problem Challenge 2 - String Anagrams \(hard\) [Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/)   
- Problem Challenge 3 - Smallest Window containing Substring \(hard\) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)   
- Problem Challenge 4 - Words Concatenation \(hard\) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)   
+Problem Challenge 3 - Smallest Window containing Substring \(hard\) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)   
+Problem Challenge 4 - Words Concatenation \(hard\) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)   
 
 
 ## 2. Pattern: Two Pointers 
