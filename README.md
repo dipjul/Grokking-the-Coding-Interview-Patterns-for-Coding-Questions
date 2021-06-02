@@ -1,6 +1,6 @@
-# [GitBook](https://app.gitbook.com/@dvpr/s/coding-interview-patterns/)
+# [Website](https://app.gitbook.com/@dvpr/s/coding-interview-patterns/) 
 ---
-description: Providing an alternate to those who can't afford
+Description: Providing an alternate to those who can't afford
 ---
 
 # Grokking the Coding Interview: Patterns for Coding Questions Alternative
