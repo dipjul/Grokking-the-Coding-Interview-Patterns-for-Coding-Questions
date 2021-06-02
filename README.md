@@ -1,8 +1,6 @@
-# Grokking the Coding Interview: Patterns for Coding Questions Alternative
+# Coding Interview Patterns
 
-### Description: Providing an alternate to those who can't afford
-
-## Grokking the Coding Interview: Patterns for Coding Questions Alternative
+## Coding Interview Patterns
 
 ### 1. Pattern: Sliding Window
 

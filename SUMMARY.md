@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Grokking the Coding Interview: Patterns for Coding Questions Alternative](README.md)
+* [Coding Interview Patterns](README.md)
 * [1. Pattern: Sliding Window](1.-pattern-sliding-window/README.md)
   * [1.1 Maximum Sum Subarray of Size K \(easy\)](1.-pattern-sliding-window/1.1-maximum-sum-subarray-of-size-k-easy.md)
   * [1.2 Smallest Subarray with a given sum \(easy\)](1.-pattern-sliding-window/1.2-smallest-subarray-with-a-given-sum-easy.md)
