@@ -2,6 +2,7 @@
 
 * [Coding Interview Patterns](README.md)
 * [1. Pattern: Sliding Window](1.-pattern-sliding-window/README.md)
+  * [1.0 Introduction](1.-pattern-sliding-window/1.0-introduction.md)
   * [1.1 Maximum Sum Subarray of Size K \(easy\)](1.-pattern-sliding-window/1.1-maximum-sum-subarray-of-size-k-easy.md)
   * [1.2 Smallest Subarray with a given sum \(easy\)](1.-pattern-sliding-window/1.2-smallest-subarray-with-a-given-sum-easy.md)
   * [1.3 Longest Substring with K Distinct Characters \(medium\)](1.-pattern-sliding-window/1.3-longest-substring-with-k-distinct-characters-medium.md)
@@ -14,6 +15,7 @@
   * [1.10 Smallest Window containing Substring \(hard\)](1.-pattern-sliding-window/1.10-smallest-window-containing-substring-hard.md)
   * [1.11 Words Concatenation \(hard\)](1.-pattern-sliding-window/1.11-words-concatenation-hard.md)
 * [2. Pattern: Two Pointers](2.-pattern-two-pointers/README.md)
+  * [2.0 Introduction](2.-pattern-two-pointers/2.0-introduction.md)
   * [2.1 Pair with Target Sum \(easy\)](2.-pattern-two-pointers/2.1-pair-with-target-sum-easy.md)
   * [2.2 Remove Duplicates \(easy\)](2.-pattern-two-pointers/2.2-remove-duplicates-easy.md)
   * [2.3 Squaring a Sorted Array \(easy\)](2.-pattern-two-pointers/2.3-squaring-a-sorted-array-easy.md)
