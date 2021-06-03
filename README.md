@@ -4,42 +4,44 @@
 
 ### 1. Pattern: Sliding Window
 
-1. Maximum Sum Subarray of Size K \(easy\)
-2. Smallest Subarray with a given sum \(easy\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)
-3. Longest Substring with K Distinct Characters \(medium\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
-4. Fruits into Baskets \(medium\) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)
-5. No-repeat Substring \(hard\) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-6. Longest Substring with Same Letters after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)
-7. Longest Subarray with Ones after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)
-8. Problem Challenge 1 - Permutation in a String \(hard\) [Leetcode](https://leetcode.com/problems/permutation-in-string/)
-9. Problem Challenge 2 - String Anagrams \(hard\) [Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
-10. Problem Challenge 3 - Smallest Window containing Substring \(hard\) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)
-11. Problem Challenge 4 - Words Concatenation \(hard\) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
+1. Introduction
+2. Maximum Sum Subarray of Size K \(easy\)
+3. Smallest Subarray with a given sum \(easy\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/7XMlMEQPnnQ)
+4. Longest Substring with K Distinct Characters \(medium\) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/YQQwQMWLx80)
+5. Fruits into Baskets \(medium\) [LeetCode](https://leetcode.com/problems/fruit-into-baskets/)
+6. No-repeat Substring \(hard\) [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+7. Longest Substring with Same Letters after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/longest-repeating-character-replacement/)
+8. Longest Subarray with Ones after Replacement \(hard\) [LeetCode](https://leetcode.com/problems/max-consecutive-ones-iii/)
+9. Problem Challenge 1 - Permutation in a String \(hard\) [Leetcode](https://leetcode.com/problems/permutation-in-string/)
+10. Problem Challenge 2 - String Anagrams \(hard\) [Leetcode](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+11. Problem Challenge 3 - Smallest Window containing Substring \(hard\) [Leetcode](https://leetcode.com/problems/minimum-window-substring/)
+12. Problem Challenge 4 - Words Concatenation \(hard\) [Leetcode](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 
 ### 2. Pattern: Two Pointers
 
-1. Pair with Target Sum \(easy\) [LeetCode](https://leetcode.com/problems/two-sum/)
-2. Remove Duplicates \(easy\) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) [LeetCode](https://leetcode.com/problems/duplicate-zeros/)
-3. Squaring a Sorted Array \(easy\) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)
-4. Triplet Sum to Zero \(medium\) [LeetCode](https://leetcode.com/problems/3sum/)
-5. Triplet Sum Close to Target \(medium\) [LeetCode](https://leetcode.com/problems/3sum-closest/)
-6. Triplets with Smaller Sum \(medium\) [LintCode](https://www.lintcode.com/problem/3sum-smaller/description)
-7. Subarrays with Product Less than a Target \(medium\) [LeetCode](https://leetcode.com/problems/subarray-product-less-than-k/)
-8. Dutch National Flag Problem \(medium\) [CoderByte](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)
-9. Problem Challenge 1 - Quadruple Sum to Target \(medium\) [Leetcode](https://leetcode.com/problems/4sum/)
-10. Problem Challenge 2 - Comparing Strings containing Backspaces \(medium\) [Leetcode](https://leetcode.com/problems/backspace-string-compare/)
-11. Problem Challenge 3 - Minimum Window Sort \(medium\) [Leetcode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [Ideserve](https://www.ideserve.co.in/learn/minimum-length-subarray-sorting-which-results-in-sorted-array)
+1. Introduction
+2. Pair with Target Sum \(easy\) [LeetCode](https://leetcode.com/problems/two-sum/)
+3. Remove Duplicates \(easy\) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) [LeetCode](https://leetcode.com/problems/duplicate-zeros/)
+4. Squaring a Sorted Array \(easy\) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)
+5. Triplet Sum to Zero \(medium\) [LeetCode](https://leetcode.com/problems/3sum/)
+6. Triplet Sum Close to Target \(medium\) [LeetCode](https://leetcode.com/problems/3sum-closest/)
+7. Triplets with Smaller Sum \(medium\) [LintCode](https://www.lintcode.com/problem/3sum-smaller/description)
+8. Subarrays with Product Less than a Target \(medium\) [LeetCode](https://leetcode.com/problems/subarray-product-less-than-k/)
+9. Dutch National Flag Problem \(medium\) [CoderByte](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)
+10. Problem Challenge 1 - Quadruple Sum to Target \(medium\) [Leetcode](https://leetcode.com/problems/4sum/)
+11. Problem Challenge 2 - Comparing Strings containing Backspaces \(medium\) [Leetcode](https://leetcode.com/problems/backspace-string-compare/)
+12. Problem Challenge 3 - Minimum Window Sort \(medium\) [Leetcode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [Ideserve](https://www.ideserve.co.in/learn/minimum-length-subarray-sorting-which-results-in-sorted-array)
 
 ### 3. Pattern: Fast & Slow pointers
 
-Introduction [emre.me](https://emre.me/coding-patterns/fast-slow-pointers/)  
-LinkedList Cycle \(easy\) [Leetcode](https://leetcode.com/problems/linked-list-cycle/)  
-Start of LinkedList Cycle \(medium\) [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)  
-Happy Number \(medium\) [Leetcode](https://leetcode.com/problems/happy-number/)  
-Middle of the LinkedList \(easy\) [Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)  
-Problem Challenge 1 - Palindrome LinkedList \(medium\) [Leetcode](https://leetcode.com/problems/palindrome-linked-list/)  
-Problem Challenge 2 - Rearrange a LinkedList \(medium\) [Leetcode](https://leetcode.com/problems/reorder-list/)  
-Problem Challenge 3 - Cycle in a Circular Array \(hard\) [Leetcode](https://leetcode.com/problems/circular-array-loop/)
+1. Introduction [emre.me](https://emre.me/coding-patterns/fast-slow-pointers/)
+2. LinkedList Cycle \(easy\) [Leetcode](https://leetcode.com/problems/linked-list-cycle/)
+3. Start of LinkedList Cycle \(medium\) [Leetcode](https://leetcode.com/problems/linked-list-cycle-ii/)
+4. Happy Number \(medium\) [Leetcode](https://leetcode.com/problems/happy-number/)
+5. Middle of the LinkedList \(easy\) [Leetcode](https://leetcode.com/problems/middle-of-the-linked-list/)
+6. Problem Challenge 1 - Palindrome LinkedList \(medium\) [Leetcode](https://leetcode.com/problems/palindrome-linked-list/)
+7. Problem Challenge 2 - Rearrange a LinkedList \(medium\) [Leetcode](https://leetcode.com/problems/reorder-list/)
+8. Problem Challenge 3 - Cycle in a Circular Array \(hard\) [Leetcode](https://leetcode.com/problems/circular-array-loop/)
 
 ### 4. Pattern: Merge Intervals
 
