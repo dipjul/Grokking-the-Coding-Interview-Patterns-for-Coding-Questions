@@ -94,10 +94,10 @@
 ### 8. Pattern: Tree Depth First Search
 
 1. Introduction
-2. Binary Tree Path Sum (easy)
-3. All Paths for a Sum (medium)
-4. Sum of Path Numbers (medium)
-5. Path With Given Sequence (medium)
+2. Binary Tree Path Sum (easy) [Leetcode](https://leetcode.com/problems/path-sum/)
+3. All Paths for a Sum (medium) [Leetcode](https://leetcode.com/problems/path-sum-iii/)
+4. Sum of Path Numbers (medium) [Leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+5. Path With Given Sequence (medium) []
 6. Count Paths for a Sum (medium)
 
 ### 9. Pattern: Two Heaps
