@@ -42,4 +42,5 @@
   * [16.1 Introduction](16.-pattern-topological-sort-graph/16.1-introduction.md)
   * [16.2 Topological Sort (medium)](16.-pattern-topological-sort-graph/16.2-topological-sort-medium.md)
   * [16.3 Tasks Scheduling (medium)](16.-pattern-topological-sort-graph/16.3-tasks-scheduling-medium.md)
+  * [16.4 Tasks Scheduling Order (medium)](16.-pattern-topological-sort-graph/16.4-tasks-scheduling-order-medium.md)
 * [Contributor Covenant Code of Conduct](code\_of\_conduct.md)
