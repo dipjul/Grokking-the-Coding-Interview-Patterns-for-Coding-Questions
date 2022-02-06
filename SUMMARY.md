@@ -38,4 +38,7 @@
   * [7.8 Connect Level Order Siblings (medium)](untitled/7.8-connect-level-order-siblings-medium.md)
   * [7.9 Problem Challenge 1 - Connect All Level Order Siblings (medium)](untitled/7.9-problem-challenge-1-connect-all-level-order-siblings-medium.md)
   * [7.10 Problem Challenge 2 - Right View of a Binary Tree (easy)](untitled/7.10-problem-challenge-2-right-view-of-a-binary-tree-easy.md)
+* [16. Pattern: Topological Sort (Graph)](16.-pattern-topological-sort-graph/README.md)
+  * [16.1 Introduction](16.-pattern-topological-sort-graph/16.1-introduction.md)
+  * [16.2 Topological Sort (medium)](16.-pattern-topological-sort-graph/16.2-topological-sort-medium.md)
 * [Contributor Covenant Code of Conduct](code\_of\_conduct.md)
