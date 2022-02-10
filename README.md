@@ -86,8 +86,8 @@
 7. Maximum Depth of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 8. Level Order Successor (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/level-order-successor-of-a-node-in-binary-tree/)
 9. Connect Level Order Siblings (medium) [Leetcode](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
-10. Connect All Level Order Siblings (medium) [Educative](https://www.educative.io/m/connect-all-siblings)
-11. Right View of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/)
+10. Problem Challenge 1 - Connect All Level Order Siblings (medium) [Educative](https://www.educative.io/m/connect-all-siblings)
+11. Problem Challenge 2 - Right View of a Binary Tree (easy) [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 
 
@@ -97,8 +97,10 @@
 2. Binary Tree Path Sum (easy) [Leetcode](https://leetcode.com/problems/path-sum/)
 3. All Paths for a Sum (medium) [Leetcode](https://leetcode.com/problems/path-sum-iii/)
 4. Sum of Path Numbers (medium) [Leetcode](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
-5. Path With Given Sequence (medium) []
-6. Count Paths for a Sum (medium)
+5. Path With Given Sequence (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/)
+6. Count Paths for a Sum (medium) [Leetcode](https://leetcode.com/problems/path-sum-iii/)
+7. Problem Challenge 1 - Tree Diameter (medium) [Leetcode](https://leetcode.com/problems/diameter-of-binary-tree/)
+8. Problem Challenge 2 - Path with Maximum Sum (hard) [Leetcode](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 
 ### 9. Pattern: Two Heaps
 
@@ -169,11 +171,13 @@
 ### 16. Pattern: Topological Sort (Graph)
 
 1. Introduction
-2. Topological Sort (medium)
-3. Tasks Scheduling (medium)
-4. Tasks Scheduling Order (medium)
-5. All Tasks Scheduling Orders (hard)
-6. Alien Dictionary (hard)
+2. Topological Sort (medium) [Youtube](https://www.youtube.com/watch?v=cIBFEhD77b4)
+3. Tasks Scheduling (medium) [Leetcode-Similar](https://leetcode.com/problems/course-schedule/)
+4. Tasks Scheduling Order (medium) [Leetcode-Similar](https://leetcode.com/problems/course-schedule/)
+5. All Tasks Scheduling Orders (hard) [Leetcode-Similar](https://leetcode.com/problems/course-schedule-ii/)
+6. Alien Dictionary (hard) [Leetcode](https://leetcode.com/problems/alien-dictionary/)
+7. Problem Challenge 1 - Reconstructing a Sequence (hard) [Leetcode](https://leetcode.com/problems/sequence-reconstruction/)
+8. Problem Challenge 2 - Minimum Height Trees (hard) [Leetcode](https://leetcode.com/problems/minimum-height-trees/)
 
 ### 17. Miscellaneous
 
