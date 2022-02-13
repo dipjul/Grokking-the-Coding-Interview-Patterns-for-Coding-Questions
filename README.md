@@ -122,13 +122,16 @@
 ### 11. Pattern: Modified Binary Search
 
 1. Introduction
-2. Order-agnostic Binary Search (easy)
-3. Ceiling of a Number (medium)
-4. Next Letter (medium)
-5. Number Range (medium)
-6. Search in a Sorted Infinite Array (medium)
-7. Minimum Difference Element (medium)
-8. Bitonic Array Maximum (easy)
+2. Order-agnostic Binary Search (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/order-agnostic-binary-search/)  
+3. Ceiling of a Number (medium) [Geeksforgeeks-Ceil](https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/) [Geeksforgeeks-Floor](https://www.geeksforgeeks.org/floor-in-a-sorted-array/)  
+4. Next Letter (medium) [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)  
+5. Number Range (medium) [Leetcode](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)  
+6. Search in a Sorted Infinite Array (medium) [Leetcode](https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)  
+7. Minimum Difference Element (medium) - Find the floor & ceil take the difference, minimum would be the ans
+8. Bitonic Array Maximum (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/find-the-maximum-element-in-an-array-which-is-first-increasing-and-then-decreasing/)
+9. Problem Challenge 1 - Search Bitonic Array (medium) [Leetcode](https://leetcode.com/problems/find-in-mountain-array/)  
+10. Problem Challenge 2 - Search in Rotated Array (medium) [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+11. Problem Challenge 3 - Rotation Count (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)  
 
 ### 12. Pattern: Bitwise XOR
 
