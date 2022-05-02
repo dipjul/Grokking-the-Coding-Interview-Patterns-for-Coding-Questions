@@ -105,7 +105,7 @@
 ### 9. Pattern: Two Heaps
 
 1. Introduction
-2. Find the Median of a Number Stream (medium)
+2. Find the Median of a Number Stream (medium) [Leetcode](https://leetcode.com/problems/find-median-from-data-stream/)
 3. Sliding Window Median (hard)
 4. Maximize Capital (hard)
 
@@ -145,11 +145,11 @@
 1. Introduction
 2. Top 'K' Numbers (easy)
 3. Kth Smallest Number (easy)
-4. 'K' Closest Points to the Origin (easy)
+4. 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)
 5. Connect Ropes (easy)
 6. Top 'K' Frequent Numbers (medium)
 7. Frequency Sort (medium)
-8. Kth Largest Number in a Stream (medium)
+8. Kth Largest Number in a Stream (medium) [Leetcode](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 9. 'K' Closest Numbers (medium)
 10. Maximum Distinct Elements (medium)
 11. Sum of Elements (medium)
