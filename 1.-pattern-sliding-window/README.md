@@ -5,5 +5,5 @@
 ![](../.gitbook/assets/image.png)
 
 * **Variable Window Size**:
-  * Window size can be increase or decrease
+  * Window size can be increased or decreased
 
