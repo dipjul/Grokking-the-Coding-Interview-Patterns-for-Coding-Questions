@@ -166,10 +166,10 @@
 ### 15. Pattern : 0/1 Knapsack (Dynamic Programming)
 
 1. Introduction
-2. 0/1 Knapsack (medium)
-3. Equal Subset Sum Partition (medium)
-4. Subset Sum (medium)
-5. Minimum Subset Sum Difference (hard)
+2. 0/1 Knapsack (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+3. Equal Subset Sum Partition (medium) [Leetcode](https://leetcode.com/problems/partition-equal-subset-sum/)
+4. Subset Sum (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
+5. Minimum Subset Sum Difference (hard) [Geeksforgeeks](https://www.geeksforgeeks.org/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum/)
 
 ### 16. Pattern: Topological Sort (Graph)
 
