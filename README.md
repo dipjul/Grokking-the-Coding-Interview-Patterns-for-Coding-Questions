@@ -31,7 +31,7 @@
 10. Problem Challenge 1 - Quadruple Sum to Target (medium) [Leetcode](https://leetcode.com/problems/4sum/)
 11. Problem Challenge 2 - Comparing Strings containing Backspaces (medium) [Leetcode](https://leetcode.com/problems/backspace-string-compare/)
 12. Problem Challenge 3 - Minimum Window Sort (medium) [Leetcode](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) [Ideserve](https://www.ideserve.co.in/learn/minimum-length-subarray-sorting-which-results-in-sorted-array)
-13. Print all possible solutions to N–Queens problem(Hard)[techiedelight](https://www.techiedelight.com/print-possible-solutions-n-queens-problem/)
+13. Print all possible solutions to N–Queens problem (Hard) [Techiedelight](https://www.techiedelight.com/print-possible-solutions-n-queens-problem/)
 
 ### 3. Pattern: Fast & Slow pointers
 
