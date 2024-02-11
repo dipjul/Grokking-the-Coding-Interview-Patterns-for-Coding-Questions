@@ -142,7 +142,7 @@
 
 ### 13. Pattern: Top 'K' Elements
 
-1. Introduction
+1. [Introduction](13.-pattern-top-k-elements/01.Introduction.md)
 2. Top 'K' Numbers (easy)
 3. Kth Smallest Number (easy)
 4. 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)
@@ -154,6 +154,8 @@
 10. Maximum Distinct Elements (medium)
 11. Sum of Elements (medium)
 12. Rearrange String (hard)
+#### Misc
+13. [Heap Implementation](13.-pattern-top-k-elements/13.HeapImplementation.md)
 
 ### 14. Pattern: K-way merge
 
