@@ -143,7 +143,7 @@
 ### 13. Pattern: Top 'K' Elements
 
 1. [Introduction](13.-pattern-top-k-elements/01.Introduction.md)
-2. Top 'K' Numbers (easy)
+2. Top 'K' Numbers (easy) [Solution](13.-pattern-top-k-elements/02.top-k-numbers.md)
 3. Kth Smallest Number (easy)
 4. 'K' Closest Points to the Origin (easy) [Leetcode](https://leetcode.com/problems/k-closest-points-to-origin/)
 5. Connect Ropes (easy)
