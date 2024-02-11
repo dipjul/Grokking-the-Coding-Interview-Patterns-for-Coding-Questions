@@ -153,9 +153,9 @@
 9. 'K' Closest Numbers (medium)
 10. Maximum Distinct Elements (medium)
 11. Sum of Elements (medium)
-12. Rearrange String (hard)
-#### Misc
-13. [Heap Implementation](13.-pattern-top-k-elements/13.HeapImplementation.md)
+12. Rearrange String (hard) <br>
+
+13. [*Heap Implementation*](13.-pattern-top-k-elements/13.HeapImplementation.md)
 
 ### 14. Pattern: K-way merge
 
