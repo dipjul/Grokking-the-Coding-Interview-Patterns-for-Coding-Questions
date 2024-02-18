@@ -106,8 +106,10 @@
 
 1. Introduction
 2. Find the Median of a Number Stream (medium) [Leetcode](https://leetcode.com/problems/find-median-from-data-stream/)
-3. Sliding Window Median (hard)
-4. Maximize Capital (hard)
+3. Sliding Window Median (hard) [Leetcode](https://leetcode.com/problems/sliding-window-median/)
+4. Maximize Capital (hard) [Leetcode](https://leetcode.com/problems/ipo/)
+
+5. **Maximum Sum Combinations* (medium) [InterviewBit](https://www.interviewbit.com/problems/maximum-sum-combinations/)
 
 ### 10. Pattern: Subsets
 
@@ -155,7 +157,7 @@
 11. Sum of Elements (medium)
 12. Rearrange String (hard) <br>
 
-13. [*Heap Implementation*](13.-pattern-top-k-elements/13.HeapImplementation.md)
+13. *[*Heap Implementation*](13.-pattern-top-k-elements/13.HeapImplementation.md)
 
 ### 14. Pattern: K-way merge
 
