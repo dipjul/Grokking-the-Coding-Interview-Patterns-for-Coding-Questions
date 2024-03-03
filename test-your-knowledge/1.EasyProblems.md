@@ -1,0 +1,7 @@
+# Easy Problems
+
+1. Two Sum (easy)
+2. Valid Perfect Square (easy)
+3. Best Time to Buy and Sell (easy)
+4. Valid Parentheses (Easy)
+5. Subtree of Another Tree (easy)

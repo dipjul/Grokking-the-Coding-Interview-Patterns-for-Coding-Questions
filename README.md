@@ -320,7 +320,13 @@
 
 ### Revision
 
-1. Coding Patterns: A Cheat Sheet
+1. [Coding Patterns: A Cheat Sheet](revision/Revision.md)
+
+
+### Test Your Knowledge
+1. [Easy Problems](test-your-knowledge/1.EasyProblems.md)
+2. [Medium Problems](test-your-knowledge/2.MediumProblems.md)
+3. [Hard Problems](test-your-knowledge/3.HardProblems.md)
 
 
 > ***Note:*** Problems marked with `*` are added as per my recommendations.
