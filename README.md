@@ -174,9 +174,9 @@
 7. Unique Generalized Abbreviations (hard)
 
 
-### 16. Pattern: Modified Binary Search
+### [16. Pattern: Modified Binary Search](binary-search/BinarySearch.md)
 
-1. Introduction
+1. Introduction [Complete Pattern Theory and Solutions](binary-search/BinarySearch.md)  
 2. Order-agnostic Binary Search (easy) [Geeksforgeeks](https://www.geeksforgeeks.org/order-agnostic-binary-search/)  
 3. Ceiling of a Number (medium) [Geeksforgeeks-Ceil](https://www.geeksforgeeks.org/ceiling-in-a-sorted-array/) [Geeksforgeeks-Floor](https://www.geeksforgeeks.org/floor-in-a-sorted-array/)  
 4. Next Letter (medium) [Leetcode](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)  
