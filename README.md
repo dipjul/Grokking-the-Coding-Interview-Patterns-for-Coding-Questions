@@ -190,6 +190,4 @@
 
 1. Kth Smallest Number (hard)
 
-### 18. Conclusions
-
-Where to Go from Here [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/gx3j14p5Y3Y)
+***Note:*** Problems marked with `*` are added as per my recommendations.
