@@ -990,10 +990,11 @@ public int binarySearch() {
     int left = min(search_space);
     int right = max(search_space);
 
-    while (left < right) { // terminates when lo == hi
+    while (left <= right) { // terminates when lo == hi
         int mid = left + ((right - left) / 2);
         if (condition(mid)) {
-            right = mid;
+            // ans
+            right = mid - 1;
         } else {
             left = mid + 1;
         }
@@ -1004,7 +1005,7 @@ public int binarySearch() {
 
 ## Tricky Binary Search (Search Space Reduction)
 ### Problems
-#### Minimum Number of Days to Make m Bouquets (medium)
+#### *Minimum Number of Days to Make m Bouquets (medium)
 
 **Problem Statement:**  
 You are given an integer array bloomDay, an integer m and an integer k.
@@ -1131,3 +1132,196 @@ class Solution {
 **Complexity:**
 - Time: O(n log m), where n is the number of flowers and m is the maximum bloom day
 - Space: O(1)
+<hr>
+
+#### *Koko Eating Bananas (medium)
+
+**Problem Statement:**  
+Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.
+
+Koko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.
+
+Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.
+
+Return the minimum integer k such that she can eat all the bananas within h hours.
+
+**Examples:**  
+Example 1:
+```
+Input: piles = [3,6,7,11], h = 8
+Output: 4
+```
+Example 2:
+```
+Input: piles = [30,11,23,4,20], h = 5
+Output: 30
+```
+Example 3:
+```
+Input: piles = [30,11,23,4,20], h = 6
+Output: 23
+```
+
+**Constraints:**  
+- 1 <= piles.length <= 10^4
+- piles.length <= h <= 10^9
+- 1 <= piles[i] <= 10^9
+
+**Approach:**  
+The solution uses a binary search approach to find the minimum eating speed that allows us to finish all piles in h hours. The minEatingSpeed function first initializes the search space to the range from 1 to the maximum pile size. Then, it performs a binary search over the pile sizes to find the minimum eating speed. The satisfies function checks if it’s possible to finish all piles in h hours with a given eating speed.
+
+**Solution:**
+```java
+class Solution {
+    // Function to find the minimum eating speed to finish all piles in h hours.
+    public int minEatingSpeed(int[] piles, int h) {
+        // Initialize the search space to [1, maxEle].
+        int start = 1, end = 1, ans = 0;
+
+        // Find the maximum pile size.
+        for(int pile : piles) {
+            end = Math.max(end, pile);
+        }
+
+        // Binary search over the pile sizes.
+        while(start <= end) {
+            int mid = start + (end - start) / 2;
+
+            // If it's possible to finish all piles in h hours with mid eating speed, update ans and continue searching to the left.
+            if(satisfies(piles, h, mid)) {
+                end = mid - 1;
+                ans = mid;
+            } else { // Otherwise, continue searching to the right.
+                start = mid + 1;
+            }
+        }
+
+        // Return the minimum eating speed, or 0 if it's not possible to finish all piles in h hours.
+        return ans;
+    }
+
+    // Function to check if it's possible to finish all piles in h hours with probSpeed eating speed.
+    private boolean satisfies(int[] piles, int hour, int probSpeed) {
+        int hourTaken = 0;
+
+        // Calculate the total hours taken to finish all piles with probSpeed eating speed.
+        for(int pile : piles) {
+            hourTaken += Math.ceil(1.0 * pile / probSpeed);
+        }
+
+        // Return true if the total hours taken is less than or equal to h, false otherwise.
+        return hourTaken <= hour;
+    }
+}
+
+```
+**Complexity:**
+- Time: O(n log m), where n is the number of piles and m is the maximum pile size
+- Space: O(1)
+<hr>
+
+#### *Capacity To Ship Packages Within D Days (medium)
+
+**Problem Statement:**  
+A conveyor belt has packages that must be shipped from one port to another within days days.
+
+The ith package on the conveyor belt has a weight of weights[i]. Each day, we load the ship with packages on the conveyor belt (in the order given by weights). We may not load more weight than the maximum weight capacity of the ship.
+
+Return the least weight capacity of the ship that will result in all the packages on the conveyor belt being shipped within days days.
+
+ 
+
+**Examples:**  
+Example 1:
+```
+Input: weights = [1,2,3,4,5,6,7,8,9,10], days = 5
+Output: 15
+Explanation: A ship capacity of 15 is the minimum to ship all the packages in 5 days like this:
+1st day: 1, 2, 3, 4, 5
+2nd day: 6, 7
+3rd day: 8
+4th day: 9
+5th day: 10
+
+Note that the cargo must be shipped in the order given, so using a ship of capacity 14 and splitting the packages into parts like (2, 3, 4, 5), (1, 6, 7), (8), (9), (10) is not allowed.
+```
+Example 2:
+```
+Input: weights = [3,2,2,4,1,4], days = 3
+Output: 6
+Explanation: A ship capacity of 6 is the minimum to ship all the packages in 3 days like this:
+1st day: 3, 2
+2nd day: 2, 4
+3rd day: 1, 4
+```
+Example 3:
+```
+Input: weights = [1,2,3,1,1], days = 4
+Output: 3
+Explanation:
+1st day: 1
+2nd day: 2
+3rd day: 3
+4th day: 1, 1
+```
+
+**Constraints:**  
+- 1 <= days <= weights.length <= 5 * 10^4
+- 1 <= weights[i] <= 500
+
+**Approach:**  
+The solution uses a binary search approach to find the minimum ship capacity that allows us to ship all weights within the given days. The shipWithinDays function first initializes the search space to the range from the maximum weight to the total weight. Then, it performs a binary search over the ship capacities to find the minimum ship capacity. The satisfies function checks if it’s possible to ship all weights within the given days with a certain ship capacity.
+
+**Solution:**
+```java
+class Solution {
+    public int shipWithinDays(int[] weights, int days) {
+        // min = maxElement (as it's the ship would be able to deliver all the items 
+        // only if it's capacity is greater than equal to single shipment) , max = sum
+        // search space = [maxElement, sum]
+
+        int start = 0, sum = 0;
+
+        for(int wt : weights) {
+            start = Math.max(start, wt);
+            sum += wt;
+        }
+
+        int end = sum, ans = 0;
+
+        while(start <= end) {
+
+            int mid = start + (end-start)/2;
+
+            if(satisfies(mid, weights, days)) {
+                end = mid - 1;
+                ans = mid;
+            } else {
+                start = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+
+    private boolean satisfies(int capacityOfShip, int[] wts, int days) {
+        int numOfDaysNeedForGivenShip = 1, shipmentWeight = 0;
+        for(int wt : wts) {
+            shipmentWeight += wt;
+            // if weight of shipment exceeds capacity of ship
+            // it needs to be delivery as a seperate shipment
+            if(shipmentWeight > capacityOfShip) {
+                numOfDaysNeedForGivenShip++;
+                shipmentWeight = wt;
+                if(numOfDaysNeedForGivenShip > days)
+                    return false;
+            }
+        }
+        return numOfDaysNeedForGivenShip <= days;
+    }
+}
+```
+**Complexity:**
+- Time: O(n log m), O(n log m), where n is the number of weights and m is the total weight. This is because we perform a binary search over the ship capacities, and for each capacity, we check if it’s possible to ship all weights within the given days in O(n) time. 
+- Space: O(1)
+<hr>
