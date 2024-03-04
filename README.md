@@ -187,10 +187,11 @@
 9. Problem Challenge 1: Search Bitonic Array (medium) [Leetcode](https://leetcode.com/problems/find-in-mountain-array/)  
 10. Problem Challenge 2: Search in Rotated Array (medium) [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 11. Problem Challenge 3: Rotation Count (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
-12. *Minimum Number of Days to Make m Bouquets (medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
-13. *Koko Eating Bananas (medium) [Leetcode](https://leetcode.com/problems/koko-eating-bananas/)
-14. *Capacity To Ship Packages Within D Days (medium) [Leetcode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-15. *Median of Two Sorted Arrays (hard) [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+12. *Search a 2D Matrix (medium) [Leetcode](https://leetcode.com/problems/search-a-2d-matrix/)  
+13. *Minimum Number of Days to Make m Bouquets (medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+14. *Koko Eating Bananas (medium) [Leetcode](https://leetcode.com/problems/koko-eating-bananas/)
+15. *Capacity To Ship Packages Within D Days (medium) [Leetcode](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+16. *Median of Two Sorted Arrays (hard) [Leetcode](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 
 ### 17. Pattern: Bitwise XOR

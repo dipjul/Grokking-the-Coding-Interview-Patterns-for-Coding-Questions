@@ -763,6 +763,7 @@ class SearchRotatedWithDuplicate {
 Given an array of numbers which is sorted in ascending order and is rotated ‘k’ times around a pivot, find ‘k’.
 
 You can assume that the array does not have any duplicates.
+
 **Examples:**  
 Example 1:
 ```
@@ -886,6 +887,103 @@ class RotationCountWithDuplicates {
 ```
 <hr>
 
+#### *Search in a 2D Matrix (medium)
+**Problem Statement:**  
+You are given an m x n integer matrix matrix with the following two properties:
+
+Each row is sorted in non-decreasing order.
+The first integer of each row is greater than the last integer of the previous row.
+Given an integer target, return true if target is in matrix or false otherwise.
+
+You must write a solution in O(log(m * n)) time complexity.
+
+**Examples:**
+Example 1:  
+![Alt text](image-1.png)
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
+Output: true
+```
+Example 2:  
+![Alt text](image-2.png)
+```
+Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
+Output: false
+```
+**Constraints:**  
+- m == matrix.length
+- n == matrix[i].length
+- 1 <= m, n <= 100
+- -10^4 <= matrix[i][j], target <= 10^4
+
+**Approach:**  
+If closely analyze the given matrix, we can notice one interesting property: elements on the left are always smaller than the current element, and elements on the bottom are always greater. It reminds us of the Binary Search Tree, doesn't it ? Just look at this matrix from this angle and everything will become clear to you (our target, say, is 11):
+![Alt text](image.png)
+
+**Complexity:**  
+- Time: O(n) - in the case we have just one row
+- Space: O(1) - nothing stored
+
+```java
+class Solution {
+public boolean searchMatrix(int[][] matrix, int target) {
+        int rows = matrix.length,
+			cols = matrix[0].length,
+            row = 0, col = cols - 1;
+			
+        while (row < rows && col > -1) {
+            int cur = matrix[row][col];
+            if (cur == target) return true;
+            if (target > cur) row++;
+            else col--;
+        }
+        
+        return false;
+    }
+}
+```
+
+**Optimizations**  
+
+**Approach**  
+Don't treat it as a 2D matrix, just treat it as a sorted list
+
+rows * cols matrix convert to an array => matrix[x][y] => a[x * cols + y]
+
+an array convert to n * m matrix => a[x] => matrix[x / cols][x % cols];
+
+```java
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        if(matrix.length == 0) return false;
+
+        int rows = matrix.length;
+        int columns = matrix[0].length;
+
+        int low = 0;
+        int high = rows * columns;
+
+        while(low < high) {
+            int mid = (low+high)/2;
+
+            if(matrix[mid/columns][mid%columns] == target) {
+                return true;
+            } else if (matrix[mid/columns][mid%columns] < target) {
+                low = mid+1;
+            } else {
+                high = mid;
+            }
+        }
+        return false;
+    }
+}
+```
+
+**Complexity:**  
+- Time: O(log(mn))
+- Space: O(1)
+<hr>
+
 ## Modified Binary Search Template
 ```java
 public int binarySearch() {
@@ -904,4 +1002,132 @@ public int binarySearch() {
 }
 ```
 
-## Tricky Binary Search
+## Tricky Binary Search (Search Space Reduction)
+### Problems
+#### Minimum Number of Days to Make m Bouquets (medium)
+
+**Problem Statement:**  
+You are given an integer array bloomDay, an integer m and an integer k.
+
+You want to make m bouquets. To make a bouquet, you need to use k adjacent flowers from the garden.
+
+The garden consists of n flowers, the ith flower will bloom in the bloomDay[i] and then can be used in exactly one bouquet.
+
+Return the minimum number of days you need to wait to be able to make m bouquets from the garden. If it is impossible to make m bouquets return -1.
+
+**Examples:**  
+Example 1:
+```
+Input: bloomDay = [1,10,3,10,2], m = 3, k = 1
+Output: 3
+Explanation: Let us see what happened in the first three days. x means flower bloomed and _ means flower did not bloom in the garden.
+We need 3 bouquets each should contain 1 flower.
+After day 1: [x, _, _, _, _]   // we can only make one bouquet.
+After day 2: [x, _, _, _, x]   // we can only make two bouquets.
+After day 3: [x, _, x, _, x]   // we can make 3 bouquets. The answer is 3.
+```
+Example 2:
+```
+Input: bloomDay = [1,10,3,10,2], m = 3, k = 2
+Output: -1
+Explanation: We need 3 bouquets each has 2 flowers, that means we need 6 flowers. We only have 5 flowers so it is impossible to get the needed bouquets and we return -1.
+```
+Example 3:
+```
+Input: bloomDay = [7,7,7,7,12,7,7], m = 2, k = 3
+Output: 12
+Explanation: We need 2 bouquets each should have 3 flowers.
+Here is the garden after the 7 and 12 days:
+After day 7: [x, x, x, x, _, x, x]
+We can make one bouquet of the first three flowers that bloomed. We cannot make another bouquet from the last three flowers that bloomed because they are not adjacent.
+After day 12: [x, x, x, x, x, x, x]
+It is obvious that we can make two bouquets in different ways.
+```
+
+**Constraints:**  
+- bloomDay.length == n
+- 1 <= n <= 10^5
+- 1 <= bloomDay[i] <= 10^9
+- 1 <= m <= 10^6
+- 1 <= k <= n
+
+**Approach:**  
+The intuition behind the solution is based on two key observations:
+
+1. **Sorted Bloom Days**: The bloom days of the flowers are sorted in ascending order. This means that if a flower blooms on a certain day, all the flowers that bloom on the previous days have already bloomed. This property allows us to apply binary search on the bloom days.
+2. **Adjacent Flowers for Bouquets**: Each bouquet requires k adjacent flowers. This means that we can’t just pick any k flowers to form a bouquet, they have to be consecutive in the array. This adds a constraint to the problem and makes it more challenging.
+
+Given these observations, the problem becomes finding the minimum number of days to wait such that we can form m bouquets of k adjacent flowers. This is essentially a search problem: we’re searching for the minimum number of days in the range of bloom days that satisfies the bouquet condition.
+
+The binary search algorithm is a perfect fit for this problem because it allows us to efficiently search through the sorted bloom days. We start by defining our search space as the range from the minimum to the maximum bloom day. Then, we repeatedly choose a mid-point in our search space and check if it’s possible to form m bouquets in that many days. If it is, we know that we can wait fewer days, so we reduce our search space to the left half. If it’s not, we know that we need to wait more days, so we increase our search space to the right half. We continue this process until we’ve found the minimum number of days that satisfies the bouquet condition.
+
+**Solution:**
+```java
+class Solution {
+    // Function to find the minimum number of days to wait to make m bouquets.
+    public int minDays(int[] bloomDay, int m, int k) {
+        // If there are not enough flowers to make m bouquets, return -1.
+        if (bloomDay.length < m * k)
+            return -1;
+
+        // Initialize the search space to [minEle, maxEle].
+        int left = bloomDay[0], right = bloomDay[0];
+        int ans = -1;
+
+        // Find the minimum and maximum bloom days.
+        for (int day : bloomDay) {
+            left = Math.min(left, day);
+            right = Math.max(right, day);
+        }
+
+        // Binary search over the bloom days.
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            // If it's possible to make m bouquets in mid days, update ans and
+            // continue searching to the left.
+            if (satisfies(mid, bloomDay, m, k)) {
+                ans = left;
+                right = mid - 1;
+            } else { // Otherwise, continue searching to the right.
+                left = mid + 1;
+            }
+        }
+
+        // Return the minimum number of days to wait, or -1 if it's not possible
+        // to make m bouquets.
+        return ans == -1 ? ans : left;
+    }
+
+    // Function to check if it's possible to make numOfBouquets bouquets in
+    // numOfDaysToWait days.
+    private boolean satisfies(int numOfDaysToWait, int[] bloomDay,
+        int numOfBouquets, int numOfAdjFlowers) {
+        int cntNumOfBouq = 0, cntNumOfAdj = 0;
+
+        // Iterate over the bloom days.
+        for (int d : bloomDay) {
+            // If a flower blooms within numOfDaysToWait days, increment the
+            // count of adjacent flowers.
+            if (d <= numOfDaysToWait) {
+                cntNumOfAdj++;
+                // If there are enough adjacent flowers for a bouquet, increment
+                // the count of bouquets and reset the count of adjacent
+                // flowers.
+                if (cntNumOfAdj == numOfAdjFlowers) {
+                    cntNumOfBouq++;
+                    cntNumOfAdj = 0;
+                }
+            } else { // Otherwise, reset the count of adjacent flowers.
+                cntNumOfAdj = 0;
+            }
+        }
+
+        // Return true if there are enough bouquets, false otherwise.
+        return cntNumOfBouq >= numOfBouquets;
+    }
+}
+```
+**Complexity:**
+- Time: O(n log m), where n is the number of flowers and m is the maximum bloom day
+- Space: O(1)
