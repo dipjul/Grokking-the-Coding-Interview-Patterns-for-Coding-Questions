@@ -950,7 +950,7 @@ Don't treat it as a 2D matrix, just treat it as a sorted list
 
 rows * cols matrix convert to an array => matrix[x][y] => a[x * cols + y]
 
-an array convert to n * m matrix => a[x] => matrix[x / cols][x % cols];
+an array convert to rows * cols matrix => a[x] => matrix[x / cols][x % cols];
 
 ```java
 class Solution {
