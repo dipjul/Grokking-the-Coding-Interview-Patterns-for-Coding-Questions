@@ -864,11 +864,11 @@ class RotationCountWithDuplicates {
             // choose a side the best we can do is to skip one number from both
             // ends if they are not the smallest number
             if (arr[start] == arr[mid] && arr[end] == arr[mid]) {
-                if (arr[start] > arr[start + 1]) // if element at start+1 is not
+                if (arr[start] > arr[start + 1]) // if element at start+1 is
                                                  // the smallest
                     return start + 1;
                 ++start;
-                if (arr[end - 1] > arr[end]) // if the element at end is not the
+                if (arr[end - 1] > arr[end]) // if the element at end is the
                                              // smallest
                     return end;
                 --end;
