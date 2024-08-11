@@ -81,28 +81,28 @@
 2. Balanced Parentheses
 3. Reverse a String
 4. Decimal to Binary Conversion
-5. Next Greater Element
-6. Sorting a Stack
-7. Simplify Path
+5. Next Greater Element [Leetcode - I](https://leetcode.com/problems/next-greater-element-i/) [Leetcode -II](https://leetcode.com/problems/next-greater-element-ii/) [Leetcode - III (Hard)](https://leetcode.com/problems/next-greater-element-iv/)
+6. Sorting a Stack 
+7. Simplify Path [Leetcode](https://leetcode.com/problems/simplify-path/)  
 
 ### 8. Pattern: Monotonic Stack
 
 1. Introduction to Monotonic Stack
-2. Next Greater Element (easy)
-3. Daily Temperatures (easy)
-4. Remove Nodes From Linked List (easy)
-5. Remove All Adjacent Duplicates In String (easy)
-6. Remove All Adjacent Duplicates in String II (medium)
-7. Remove K Digits (hard)
+2. Next Greater Element (easy) [Leetcode - I](https://leetcode.com/problems/next-greater-element-i/) [Leetcode -II](https://leetcode.com/problems/next-greater-element-ii/) [Leetcode - III (Hard)](https://leetcode.com/problems/next-greater-element-iv/)
+3. Daily Temperatures (easy) [Leetcode](https://leetcode.com/problems/daily-temperatures/)
+4. Remove Nodes From Linked List (easy) [Leetcode](https://leetcode.com/problems/remove-nodes-from-linked-list/)
+5. Remove All Adjacent Duplicates In String (easy) [Leetcode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)  
+6. Remove All Adjacent Duplicates in String II (medium) [Leetcode](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)
+7. Remove K Digits (hard) [Leetcode](https://leetcode.com/problems/remove-k-digits/)  
 
 ### 9. Pattern: Hash Maps
 
 1. Introduction (Hashing, Hash Tables, Issues)
-2. First Non-repeating Character (easy)
-3. Largest Unique Number (easy)
-4. Maximum Number of Balloons (easy)
-5. Longest Palindrome(easy)
-6. Ransom Note (easy)
+2. First Non-repeating Character (easy) [Leetcode](https://leetcode.com/problems/first-unique-character-in-a-string/)  
+3. Largest Unique Number (easy) [Leetcode+](https://leetcode.com/problems/largest-unique-number/)  
+4. Maximum Number of Balloons (easy) [Leetcode](https://leetcode.com/problems/maximum-number-of-balloons/)  
+5. Longest Palindrome(easy) [Leetcode](https://leetcode.com/problems/longest-palindrome/)  
+6. Ransom Note (easy) [Leetcode](https://leetcode.com/problems/ransom-note/)  
 
 ### 10. Pattern: Tree Breadth First Search
 
@@ -136,18 +136,18 @@
 1. Introduction to Graph (Representations, Abstract Data Type (ADT))
 2. Graph Traversal: Depth First Search(DFS)
 3. Graph Traversal: Breadth First Search (BFS)
-4. Find if Path Exists in Graph(easy
-5. Number of Provinces (medium)
-6. Minimum Number of Vertices to Reach All Nodes(medium)
+4. Find if Path Exists in Graph(easy) [Leetcode](https://leetcode.com/problems/find-if-path-exists-in-graph/)  
+5. Number of Provinces (medium) [Leetcode](https://leetcode.com/problems/number-of-provinces/)  
+6. Minimum Number of Vertices to Reach All Nodes(medium) [Leetcode](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)  
 
 
 ### 13. Pattern: Island (Matrix traversal)
 
 1. Introduction to Island Pattern
-2. Number of Islands (easy)
+2. Number of Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-islands/)  
 3. Biggest Island (easy)
-4. Flood Fill (easy)
-5. Number of Closed Islands (easy)
+4. Flood Fill (easy) [Leetcode](https://leetcode.com/problems/flood-fill/)  
+5. Number of Closed Islands (easy) [Leetcode](https://leetcode.com/problems/number-of-closed-islands/)  
 6. Problem Challenge 1 (easy)
 7. Problem Challenge 2 (medium)
 8. Problem Challenge 3 (medium)
@@ -171,7 +171,7 @@
 4. Permutations (medium) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/B8R83jyN3KY)
 5. String Permutations by changing case (medium)
 6. Balanced Parentheses (hard)
-7. Unique Generalized Abbreviations (hard)
+7. Unique Generalized Abbreviations (hard) [Leetcode](https://leetcode.com/problems/generalized-abbreviation/)
 
 
 ### [16. Pattern: Modified Binary Search](binary-search/BinarySearch.md)
@@ -227,22 +227,22 @@
 ### 19. Pattern: K-way merge
 
 1. Introduction
-2. Merge K Sorted Lists (medium)
-3. Kth Smallest Number in M Sorted Lists (Medium)
+2. Merge K Sorted Lists (medium) [Leetcode](https://leetcode.com/problems/merge-k-sorted-lists/)  
+3. Kth Smallest Number in M Sorted Lists (Medium) [Geeksforgeeks](https://www.geeksforgeeks.org/find-m-th-smallest-value-in-k-sorted-arrays/)
 4. Kth Smallest Number in a Sorted Matrix (Hard) [Educative.io](https://www.educative.io/courses/grokking-the-coding-interview/x1NJVYKNvqz)
-5. Smallest Number Range (Hard)
+5. Smallest Number Range (Hard) [Leetcode](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)  
 6. Problem Challenge 1: K Pairs with Largest Sums (hard)
 
 
 ### 20. Pattern: Greedy Algorithms
 
 1. Introduction to Greedy Algorithm
-2. Valid Palindrome II (easy)
-3. Maximum Length of Pair Chain (medium)
-4. Minimum Add to Make Parentheses Valid (medium)
-5. Remove Duplicate Letters (medium)
-6. Largest Palindromic Number (Medium)
-7. Removing Minimum and Maximum From Array (medium)
+2. Valid Palindrome II (easy) [Leetcode](https://leetcode.com/problems/valid-palindrome-ii/)  
+3. Maximum Length of Pair Chain (medium) [Leetcode](https://leetcode.com/problems/maximum-length-of-pair-chain/)
+4. Minimum Add to Make Parentheses Valid (medium) [Leetcode](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)
+5. Remove Duplicate Letters (medium) [Leetcode](https://leetcode.com/problems/remove-duplicate-letters/)
+6. Largest Palindromic Number (Medium) [Leetcode](https://leetcode.com/problems/largest-palindromic-number/)  
+7. Removing Minimum and Maximum From Array (medium) [Leetcode](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)  
 
 
 ### 21. Pattern : 0/1 Knapsack (Dynamic Programming)
@@ -259,21 +259,21 @@
 ### 22. Pattern: Backtracking
 
 1. Introduction to Backtracking Pattern
-2. Combination Sum (medium)
-3. Word Search (medium)
-4. Sudoku Solver (hard)
-5. Factor Combinations (medium)
-6. Split a String Into the Max Number of Unique Substrings (medium)
+2. Combination Sum (medium) [Leetcode - I](https://leetcode.com/problems/combination-sum/) [Leetcode - II](https://leetcode.com/problems/combination-sum-ii/) [Leetcode - III](https://leetcode.com/problems/combination-sum-iii/) [Leetcode - IV](https://leetcode.com/problems/combination-sum-iv/)  
+3. Word Search (medium) [Leetcode - I](https://leetcode.com/problems/word-search/) [Leetcode - II (Hard)](https://leetcode.com/problems/word-search-ii/)
+4. Sudoku Solver (hard) [Leetcode](https://leetcode.com/problems/sudoku-solver/)
+5. Factor Combinations (medium) [Leetcode+](https://leetcode.com/problems/factor-combinations/)
+6. Split a String Into the Max Number of Unique Substrings (medium) [Leetcode](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 
 
 ### 23. Pattern: Trie
 
 1. Introduction to Trie
-2. Implement Trie (Prefix Tree) (medium)
-3. Index Pairs of a String (easy)
-4. Design Add and Search Words Data Structure (medium)
-5. Extra Characters in a String (medium)
-6. Search Suggestions System (medium)
+2. Implement Trie (Prefix Tree) (medium) [Leetcode](https://leetcode.com/problems/implement-trie-prefix-tree/)  
+3. Index Pairs of a String (easy) [Leetcode+](https://leetcode.com/problems/index-pairs-of-a-string/)
+4. Design Add and Search Words Data Structure (medium) [Leetcode](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+5. Extra Characters in a String (medium) [Leetcode](https://leetcode.com/problems/extra-characters-in-a-string/)
+6. Search Suggestions System (medium) [Leetcode](https://leetcode.com/problems/search-suggestions-system/)
 
 
 ### 24. Pattern: Topological Sort (Graph)
@@ -291,18 +291,18 @@
 ### 25. Pattern: Union Find
 
 1. Introduction to Union Find Pattern
-2. Redundant Connection (medium)
-3. Number of Provinces (medium)
-4. Is Graph Bipartite? (medium)
-5. Path With Minimum Effort (medium)
+2. Redundant Connection (medium) [Leetcode - I](https://leetcode.com/problems/redundant-connection/) [Leetcode - II (Hard)](https://leetcode.com/problems/redundant-connection-ii/)  
+3. Number of Provinces (medium) [Leetcode](https://leetcode.com/problems/number-of-provinces/)
+4. Is Graph Bipartite? (medium) [Leetcode](https://leetcode.com/problems/is-graph-bipartite/)
+5. Path With Minimum Effort (medium) [Leetcode](https://leetcode.com/problems/path-with-minimum-effort/)
 
 
 ### 26. Ordered Set
 
 1. Introduction to Ordered Set Pattern
-2. Merge Similar Items (easy)
-3. 132 Pattern (medium)
-4. My Calendar I (medium)
+2. Merge Similar Items (easy) [Leetcode](https://leetcode.com/problems/merge-similar-items/)  
+3. 132 Pattern (medium) [Leetcode](https://leetcode.com/problems/132-pattern/)  
+4. My Calendar I (medium) [Leetcode](https://leetcode.com/problems/my-calendar-i/) [Leetcode - II](https://leetcode.com/problems/my-calendar-ii/) [Leetcode - III (Hard)](https://leetcode.com/problems/my-calendar-iii/)  
 5. Longest Continuous Subarray (medium)
 
 
