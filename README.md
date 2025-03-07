@@ -78,7 +78,7 @@
 ### 7. Pattern: Stack
 
 1. Introduction to Stack (Operations, Implementation, Applications)
-2. Balanced Parentheses
+2. Balanced Parentheses [Leetcode](https://leetcode.com/problems/valid-parentheses/description/)
 3. Reverse a String
 4. Decimal to Binary Conversion
 5. Next Greater Element [Leetcode - I](https://leetcode.com/problems/next-greater-element-i/) [Leetcode -II](https://leetcode.com/problems/next-greater-element-ii/) [Leetcode - III (Hard)](https://leetcode.com/problems/next-greater-element-iv/)
