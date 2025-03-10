@@ -10,7 +10,7 @@
 4. Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)
 5. Triplet Sum to Zero (medium) [LeetCode](https://leetcode.com/problems/3sum/)
 6. Triplet Sum Close to Target (medium) [LeetCode](https://leetcode.com/problems/3sum-closest/)
-7. Triplets with Smaller Sum (medium) [LintCode](https://www.lintcode.com/problem/3sum-smaller/description)
+7. Triplets with Smaller Sum (medium) [Geeksforgeeks](https://www.geeksforgeeks.org/problems/count-triplets-with-sum-smaller-than-x5549/1)
 8. Subarrays with Product Less than a Target (medium) [LeetCode](https://leetcode.com/problems/subarray-product-less-than-k/)
 9. Dutch National Flag Problem (medium) [CoderByte](https://coderbyte.com/algorithm/dutch-national-flag-sorting-problem)
 10. Problem Challenge 1: Quadruple Sum to Target (medium) [Leetcode](https://leetcode.com/problems/4sum/)
