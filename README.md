@@ -5,7 +5,7 @@
 ### 1. Pattern: Two Pointers
 
 1. Introduction
-2. Pair with Target Sum (easy) [LeetCode](https://leetcode.com/problems/two-sum/)
+2. Pair with Target Sum (medium) [LeetCode](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 3. Remove Duplicates (easy) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) [LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) [LeetCode](https://leetcode.com/problems/find-the-duplicate-number/) [LeetCode](https://leetcode.com/problems/duplicate-zeros/)
 4. Squaring a Sorted Array (easy) [LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/)
 5. Triplet Sum to Zero (medium) [LeetCode](https://leetcode.com/problems/3sum/)
